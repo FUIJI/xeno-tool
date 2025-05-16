@@ -1303,7 +1303,7 @@ class MyApp:
 
 
 if __name__ == "__main__":
-    current_version = "1.0.0"
+    current_version = "1.0.1"
     
     # Init
     root = tk.Tk()
