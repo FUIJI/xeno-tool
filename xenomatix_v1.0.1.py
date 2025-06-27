@@ -1286,6 +1286,8 @@ class MyApp:
             response = requests.get(version_url)
             response.raise_for_status()
             latest_version = response.text.strip()
+            # for test version
+            # latest_version = '1.0.2'
 
             # Compare versions
             if version.parse(latest_version) > version.parse(current_version):
@@ -1303,7 +1305,7 @@ class MyApp:
 
 
 if __name__ == "__main__":
-    current_version = "1.0.1"
+    current_version = "1.0.2"
     
     # Init
     root = tk.Tk()
