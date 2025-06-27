@@ -209,7 +209,7 @@ def process_date_folder(date_folder_name, source_directory, destination_parent_d
                         jpg_files.append((src_file, dst_file))
 
                         # Ensure unique file name
-                        new_file_name = f"{date_folder_name}_{run_number}_ROW-0-{jpg_counter:05d}.jpg"
+                        new_file_name = f"{date_folder_name}_{run_number}-ROW-0-{jpg_counter:05d}.jpg"
                         new_file_path = os.path.join(new_folder_path, new_file_name)
                         renamed_files.append((dst_file, new_file_path))
                         jpg_counter += 1

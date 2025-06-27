@@ -329,8 +329,8 @@ def read_csv_with_flexible_columns(file_path, delimiter=';'):
     
     return df
 
-# file_path = r"E:\RS25\Test\xenomatix\output\survey_data_20250428\Output\20250428RUN01\drp_rutting_qgis_20250428RUN01.csv"
-# df = read_csv_with_flexible_columns(file_path, delimiter=';')
+file_path = r"D:\xeno-tool\drp_rutting_qgis_20250502RUN01.csv"
+df = read_csv_with_flexible_columns(file_path, delimiter=';')
 
 def process_csv_files(path):
     all_iri_dataframes = [] # empty list
