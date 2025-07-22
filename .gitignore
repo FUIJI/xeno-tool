@@ -175,6 +175,7 @@ cython_debug/
 
 /xenomatix.py
 /xenomatix_v1.0.1.py
+/xenomatix_poc.py
 *.spec
 
 # Ignore entire folder
